@@ -44,3 +44,4 @@ translation-finder>=2.15,<3.0
 user-agents>=2.0,<2.3
 weblate-language-data>=2022.7
 weblate-schemas==2023.3
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
