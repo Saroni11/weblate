@@ -35,3 +35,4 @@ social-auth-core[openidconnect]
 tesserocr>=2.3.0; platform_system != 'Windows'
 # MSTerminology
 zeep>=4.1.0,<4.3.0
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
