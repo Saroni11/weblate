@@ -12,7 +12,7 @@ django-cors-headers>=3.13.0,<4.3
 django-crispy-forms>=2.0.0,<2.1
 django-filter>=21.1,<23.3
 django-redis>=5.0.0,<6.0
-Django[argon2]>=4.2,<4.3
+Django>=4.2.15
 djangorestframework>=3.14.0,<3.15
 filelock<4,>=3.12
 GitPython>=3.1.0,<3.2
@@ -44,3 +44,5 @@ translation-finder>=2.15,<3.0
 user-agents>=2.0,<2.3
 weblate-language-data>=2022.7
 weblate-schemas==2023.3
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
